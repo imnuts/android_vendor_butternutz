@@ -8,14 +8,15 @@ PRODUCT_NAME := google_toro
 PRODUCT_PACKAGES += \
     Trebuchet \
     Development \
-    SpareParts
+    SpareParts \
+    su
 
 # Blobs
 PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/app/Calendar.apk:system/app/Calendar.apk \
     vendor/google/proprietary/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/proprietary/app/com.google.android.apps.walletnfcrel-2.apk:system/app/com.google.android.apps.walletnfcrel-2.apk \
+    vendor/google/proprietary/app/Earth.apk:system/app/Earth.apk \
     vendor/google/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/google/proprietary/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/google/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
@@ -25,7 +26,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/proprietary/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
     vendor/google/proprietary/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-    vendor/google/proprietary/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
     vendor/google/proprietary/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/google/proprietary/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/google/proprietary/app/LatinIME.apk:system/app/LatinIME.apk \
@@ -39,11 +39,14 @@ PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/google/proprietary/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/google/proprietary/app/PlusOne.apk:system/app/PlusOne.apk \
+    vendor/google/proprietary/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
     vendor/google/proprietary/app/RomManager.apk:system/app/RomManager.apk \
     vendor/google/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/google/proprietary/app/Street.apk:system/app/Street.apk \
     vendor/google/proprietary/app/Tag.apk:system/app/Tag.apk \
     vendor/google/proprietary/app/Talk.apk:system/app/Talk.apk \
+    vendor/google/proprietary/app/Videos.apk:system/app/Videos.apk \
+    vendor/google/proprietary/app/Voice.apk:system/app/Voice.apk \
     vendor/google/proprietary/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/proprietary/app/Wallet.apk:system/app/Wallet.apk \
     vendor/google/proprietary/app/YouTube.apk:system/app/YouTube.apk \
@@ -54,6 +57,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/google/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/google/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/google/proprietary/lib/libearthmobile.so:system/lib/libearthmobile.so \
     vendor/google/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/google/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/google/proprietary/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
@@ -94,7 +98,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
-    ro.config.notification_sound=Proxima.ogg \
+    ro.config.notification_sound=Silent \
     drm.service.enabled=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
@@ -102,4 +106,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1
+
+PRODUCT_BUILD_PROP_OVERRIDES := \
+    PRODUCT_NAME=mysid \
+    BUILD_ID=IMM30B \
+    BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM30B/257829:user/release-keys \
+    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM30B 257829 release-keys" \
+    BUILD_NUMBER=257829
 
