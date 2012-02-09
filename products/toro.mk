@@ -7,8 +7,6 @@ PRODUCT_NAME := google_toro
 # Launcher
 PRODUCT_PACKAGES += \
     Trebuchet \
-    Development \
-    SpareParts \
     su
 
 # Blobs
@@ -107,7 +105,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1
 
-PRODUCT_BUILD_PROP_OVERRIDES := \
+PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
     BUILD_ID=IMM30B \
     BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM30B/257829:user/release-keys \
