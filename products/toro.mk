@@ -11,9 +11,11 @@ PRODUCT_PACKAGES += \
 
 # Blobs
 PRODUCT_COPY_FILES +=  \
+    vendor/google/proprietary/app/Books.apk:system/app/Books.apk \
     vendor/google/proprietary/app/Calendar.apk:system/app/Calendar.apk \
     vendor/google/proprietary/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
+    vendor/google/proprietary/app/Docs.apk:system/app/Docs.apk \
     vendor/google/proprietary/app/Earth.apk:system/app/Earth.apk \
     vendor/google/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/google/proprietary/app/Gallery2.apk:system/app/Gallery2.apk \
@@ -32,6 +34,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
     vendor/google/proprietary/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/google/proprietary/app/Microbes.apk:system/app/Microbes.apk \
+    vendor/google/proprietary/app/Music.apk:system/app/Music.apk \
     vendor/google/proprietary/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/proprietary/app/Nfc.apk:system/app/Nfc.apk \
     vendor/google/proprietary/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
