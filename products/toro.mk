@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/google/proprietary/app/Voice.apk:system/app/Voice.apk \
     vendor/google/proprietary/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/proprietary/app/Wallet.apk:system/app/Wallet.apk \
-    vendor/google/proprietary/app/YouTube.apk:system/app/YouTube.apk \
+    vendor/google/proprietary/app/Youtube.apk:system/app/Youtube.apk \
     vendor/google/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/google/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     vendor/google/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
