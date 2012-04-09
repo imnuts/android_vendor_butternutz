@@ -1,3 +1,3 @@
-add_lunch_combo google_toro-user
-add_lunch_combo google_toro-debug
-add_lunch_combo google_toro-eng
+add_lunch_combo butternutz_toro-user
+add_lunch_combo butternutz_toro-userdebug
+add_lunch_combo butternutz_toro-eng
