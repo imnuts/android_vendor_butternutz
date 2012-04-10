@@ -4,6 +4,9 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 # Setup device specific product configuration.
 PRODUCT_NAME := butternutz_toro
 
+# Set locale to US English only
+PRODUCT_LOCALES := en_US
+
 # Launcher
 PRODUCT_PACKAGES += \
     Trebuchet \
