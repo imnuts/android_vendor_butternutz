@@ -113,8 +113,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
-    BUILD_ID=IMM76D \
-    BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76D/299849:user/release-keys \
-    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76D 299849 release-keys" \
-    BUILD_NUMBER=299849
+    BUILD_ID=IMM76I \
+    BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76I/330937:user/release-keys \
+    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76I 330937 release-keys" \
+    BUILD_NUMBER=330937
 
