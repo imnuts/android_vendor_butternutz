@@ -1,3 +1,9 @@
+add_lunch_combo butternutz_maguro-user
+add_lunch_combo butternutz_maguro-userdebug
+add_lunch_combo butternutz_maguro-eng
 add_lunch_combo butternutz_toro-user
 add_lunch_combo butternutz_toro-userdebug
 add_lunch_combo butternutz_toro-eng
+add_lunch_combo butternutz_torospr-user
+add_lunch_combo butternutz_torospr-userdebug
+add_lunch_combo butternutz_torospr-eng
