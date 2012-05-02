@@ -75,9 +75,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/butternutz/proprietary/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
     vendor/butternutz/proprietary/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/butternutz/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/butternutz/proprietary/vendor/firmware/smc_pa_wvdrm.ift:system/vendor/firmware/smc_pa_wvdrm.ift \
+    vendor/butternutz/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/butternutz/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/butternutz/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/butternutz/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/butternutz/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/butternutz/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin \
     vendor/butternutz/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-rn7-ri20.2d_n2/full_model.bin \
