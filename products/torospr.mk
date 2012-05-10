@@ -12,6 +12,9 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     su
 
+# T-Mobile theme engine
+include vendor/butternutz/products/themes_common.mk
+
 # Blobs
 PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/app/Books.apk:system/app/Books.apk \
@@ -116,6 +119,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysidspr \
     PRODUCT_DEVICE=toroplus \
     BUILD_ID=IMM76D \
+    BUILD_DISPLAY_ID=IMM76D \
     BUILD_PRODUCT=toroplus \
     BUILD_FINGERPRINT=google/mysidspr/toroplus:4.0.4/IMM76D/L700FC12:user/release-keys \
     PRIVATE_BUILD_DESC="mysidspr-user 4.0.4 IMM76D L700FC12 release-keys" \

@@ -9,6 +9,9 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     su
 
+# T-Mobile theme engine
+include vendor/butternutz/products/themes_common.mk
+
 # Blobs
 PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/app/Books.apk:system/app/Books.apk \
@@ -112,6 +115,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=yakju \
     BUILD_ID=IMM76I \
+    BUILD_DISPLAY_ID=IMM76I \
     BUILD_FINGERPRINT=google/yakju/maguro:4.0.4/IMM76I/330937:user/release-keys \
     PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76I 330937 release-keys" \
     BUILD_NUMBER=330937

@@ -12,6 +12,9 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     su
 
+# T-Mobile theme engine
+include vendor/butternutz/products/themes_common.mk
+
 # Blobs
 PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/app/Books.apk:system/app/Books.apk \
@@ -115,6 +118,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
     BUILD_ID=IMM76K \
+    BUILD_DISPLAY_ID=IMM76K \
     BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys \
     PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" \
     BUILD_NUMBER=336647
