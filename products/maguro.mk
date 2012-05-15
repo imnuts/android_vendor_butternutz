@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/app/Calendar.apk:system/app/Calendar.apk \
     vendor/butternutz/proprietary/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/butternutz/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/butternutz/proprietary/app/Docs.apk:system/app/Docs.apk \
+    vendor/butternutz/proprietary/app/Drive.apk:system/app/Drive.apk \
     vendor/butternutz/proprietary/app/Earth.apk:system/app/Earth.apk \
     vendor/butternutz/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/butternutz/proprietary/app/Gallery2.apk:system/app/Gallery2.apk \
