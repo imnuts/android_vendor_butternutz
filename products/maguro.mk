@@ -22,10 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=yakju \
-    BUILD_ID=IMM76I \
-    BUILD_DISPLAY_ID=IMM76I \
-    BUILD_FINGERPRINT=google/yakju/maguro:4.0.4/IMM76I/330937:user/release-keys \
-    PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76I 330937 release-keys" \
-    BUILD_NUMBER=330937
+    PRODUCT_NAME=takju \
+    BUILD_ID=JRO03C \
+    BUILD_DISPLAY_ID=JRO03C \
+    BUILD_FINGERPRINT=google/takju/maguro:4.1.1/JRO03C/398337:user/release-keys \
+    PRIVATE_BUILD_DESC="takju-user 4.1.1 JRO03C 398337 release-keys" \
+    BUILD_NUMBER=398337
 
