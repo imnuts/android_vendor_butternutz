@@ -5,6 +5,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Books.apk:system/app/Books.apk \
     $(LOCAL_PATH)/proprietary/app/CalendarGoogle.apk:system/app/Calendar.apk \
     $(LOCAL_PATH)/proprietary/app/CarHomeGoogle.apk:system/app/CarHome.apk \
+    $(LOCAL_PATH)/proprietary/app/Chrome.apk:system/app/Chrome.apk \
     $(LOCAL_PATH)/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     $(LOCAL_PATH)/proprietary/app/Currents.apk:system/app/Currents.apk \
     $(LOCAL_PATH)/proprietary/app/Drive.apk:system/app/Drive.apk \
