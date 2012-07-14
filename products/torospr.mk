@@ -7,8 +7,9 @@ PRODUCT_NAME := butternutz_toroplus
 # Set locale to US English only
 PRODUCT_LOCALES := en_US
 
-# T-Mobile theme engine
-include vendor/butternutz/products/themes_common.mk
+# gps.conf
+PRODUCT_COPY_FILES +=  \
+    vendor/butternutz/proprietary/etc/gps-us.conf:system/etc/gps.conf
 
 # Google Apps and other common items
 include vendor/butternutz/products/common.mk

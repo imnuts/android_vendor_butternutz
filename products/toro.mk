@@ -7,8 +7,9 @@ PRODUCT_NAME := butternutz_toro
 # Set locale to US English only
 PRODUCT_LOCALES := en_US
 
-# T-Mobile theme engine
-include vendor/butternutz/products/themes_common.mk
+# gps.conf
+PRODUCT_COPY_FILES +=  \
+    vendor/butternutz/proprietary/etc/gps-us.conf:system/etc/gps.conf
 
 # Google Apps and other common items
 include vendor/butternutz/products/common.mk
@@ -25,10 +26,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=mysid \
-    BUILD_ID=IMM76K \
-    BUILD_DISPLAY_ID=IMM76K \
-    BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys \
-    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" \
-    BUILD_NUMBER=336647
+    PRODUCT_NAME=takju \
+    BUILD_ID=JRO03C \
+    BUILD_DISPLAY_ID=JRO03C \
+    BUILD_FINGERPRINT=google/takju/maguro:4.1.1/JRO03C/398337:user/release-keys \
+    PRIVATE_BUILD_DESC="takju-user 4.1.1 JRO03C 398337 release-keys" \
+    BUILD_NUMBER=398337
 

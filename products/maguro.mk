@@ -4,8 +4,9 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Setup device specific product configuration.
 PRODUCT_NAME := butternutz_maguro
 
-# T-Mobile theme engine
-include vendor/butternutz/products/themes_common.mk
+# gps.conf
+PRODUCT_COPY_FILES +=  \
+    vendor/butternutz/proprietary/etc/gps-eu.conf:system/etc/gps.conf
 
 # Google Apps and other common items
 include vendor/butternutz/products/common.mk
