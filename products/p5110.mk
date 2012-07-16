@@ -1,8 +1,8 @@
-# Inherit AOSP device configuration for p5100.
-$(call inherit-product, device/samsung/p5100/full_p5100.mk)
+# Inherit AOSP device configuration for p5110.
+$(call inherit-product, device/samsung/p5110/full_p5110.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := butternutz_p5100
+PRODUCT_NAME := butternutz_p5110
 
 # Google Apps and other common items
 include vendor/butternutz/products/common.mk
@@ -27,11 +27,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=espresso10rfxx \
-    TARGET_DEVICE=espresso10rf \
+    PRODUCT_NAME=espresso10wifixx \
+    TARGET_DEVICE=espresso10wifi \
     BUILD_ID=IML74K \
-    BUILD_DISPLAY_ID=IML74K.P5100XWALE2 \
-    BUILD_NUMBER=P5100XWALE2 \
-    BUILD_FINGERPRINT=samsung/espresso10rfxx/espresso10rf:4.0.3/IML74K/P5100XWALE2:user/release-keys \
-    PRIVATE_BUILD_DESC="espresso10rfxx-user 4.0.3 IML74K P5100XWALE2 release-keys"
+    BUILD_DISPLAY_ID=IML74K.P5110XWALD2 \
+    BUILD_NUMBER=P5110XWALD2 \
+    BUILD_FINGERPRINT=samsung/espresso10wifixx/espresso10wifi:4.0.3/IML74K/P5110XWALD2:user/release-keys \
+    PRIVATE_BUILD_DESC="espresso10wifixx-user 4.0.3 IML74K P5110XWALD2 release-keys"
 
