@@ -78,7 +78,7 @@ rm -rf $REPACK/ota/recovery
 
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \
-	find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
+	find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-linux-androideabi-strip --strip-unneeded
 
 # Pack it up and sign
 printf "Zipping package..."
