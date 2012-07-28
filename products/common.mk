@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Books.apk:system/app/Books.apk \
     $(LOCAL_PATH)/proprietary/app/CalendarGoogle.apk:system/app/Calendar.apk \
     $(LOCAL_PATH)/proprietary/app/CarHomeGoogle.apk:system/app/CarHome.apk \
+    $(LOCAL_PATH)/proprietary/app/Chrome.apk:system/app/Chrome.apk \
     $(LOCAL_PATH)/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     $(LOCAL_PATH)/proprietary/app/Currents.apk:system/app/Currents.apk \
     $(LOCAL_PATH)/proprietary/app/Drive.apk:system/app/Drive.apk \
@@ -46,7 +47,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/VideoEditorGoogle.apk:system/app/VideoEditor.apk \
     $(LOCAL_PATH)/proprietary/app/Videos.apk:system/app/Videos.apk \
     $(LOCAL_PATH)/proprietary/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
-    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk \
     $(LOCAL_PATH)/proprietary/app/YouTube.apk:system/app/YouTube.apk \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     $(LOCAL_PATH)/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     $(LOCAL_PATH)/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    $(LOCAL_PATH)/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     $(LOCAL_PATH)/proprietary/lib/libearthmobile.so:system/lib/libearthmobile.so \
     $(LOCAL_PATH)/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \

@@ -7,12 +7,19 @@ PRODUCT_NAME := butternutz_toroplus
 # Set locale to US English only
 PRODUCT_LOCALES := en_US
 
+# Where are we?
+LOCAL_PATH := vendor/butternutz
+
 # gps.conf
 PRODUCT_COPY_FILES +=  \
-    vendor/butternutz/proprietary/etc/gps-us.conf:system/etc/gps.conf
+    $(LOCAL_PATH)/proprietary/etc/gps-us.conf:system/etc/gps.conf
+
+# Google Wallet
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk \
 
 # Google Apps and other common items
-include vendor/butternutz/products/common.mk
+include $(LOCAL_PATH)/products/common.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \

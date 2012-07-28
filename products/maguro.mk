@@ -4,12 +4,19 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Setup device specific product configuration.
 PRODUCT_NAME := butternutz_maguro
 
+# Where are we?
+LOCAL_PATH := vendor/butternutz
+
 # gps.conf
 PRODUCT_COPY_FILES +=  \
-    vendor/butternutz/proprietary/etc/gps-eu.conf:system/etc/gps.conf
+    $(LOCAL_PATH)/proprietary/etc/gps-eu.conf:system/etc/gps.conf
+
+# Google Wallet
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk \
 
 # Google Apps and other common items
-include vendor/butternutz/products/common.mk
+include $(LOCAL_PATH)/products/common.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
