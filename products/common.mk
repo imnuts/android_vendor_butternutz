@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/PlusOne.apk:system/app/PlusOne.apk \
     $(LOCAL_PATH)/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
     $(LOCAL_PATH)/proprietary/app/Street.apk:system/app/Street.apk \
+    $(LOCAL_PATH)/proprietary/app/Superuser.apk:system/app/Superuser.apk \
     $(LOCAL_PATH)/proprietary/app/TagGoogle.apk:system/app/Tag.apk \
     $(LOCAL_PATH)/proprietary/app/Talk.apk:system/app/Talk.apk \
     $(LOCAL_PATH)/proprietary/app/Velvet.apk:system/app/Velvet.apk \
