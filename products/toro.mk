@@ -16,7 +16,8 @@ PRODUCT_COPY_FILES +=  \
 
 # Google Wallet
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk \
+    $(LOCAL_PATH)/proprietary/app/TagGoogle.apk:system/app/Tag.apk \
+    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk
 
 # Google Apps and other common items
 include $(LOCAL_PATH)/products/common.mk

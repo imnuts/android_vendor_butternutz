@@ -5,6 +5,9 @@ PRODUCT_PACKAGES += \
     Superuser \
     su
 
+# Dictionaries to build LatinIME from source
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Files common to all devices. Primarily proprietary GApps
 PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Books.apk:system/app/Books.apk \
@@ -29,7 +32,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     $(LOCAL_PATH)/proprietary/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     $(LOCAL_PATH)/proprietary/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-    $(LOCAL_PATH)/proprietary/app/LatinImeGoogle.apk:system/app/LatinIME.apk \
     $(LOCAL_PATH)/proprietary/app/Magazines.apk:system/app/Magazines.apk \
     $(LOCAL_PATH)/proprietary/app/Maps.apk:system/app/Maps.apk \
     $(LOCAL_PATH)/proprietary/app/MediaUploader.apk:system/app/MediaUploader.apk \
@@ -41,8 +43,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/PlusOne.apk:system/app/PlusOne.apk \
     $(LOCAL_PATH)/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
     $(LOCAL_PATH)/proprietary/app/Street.apk:system/app/Street.apk \
-    $(LOCAL_PATH)/proprietary/app/Superuser.apk:system/app/Superuser.apk \
-    $(LOCAL_PATH)/proprietary/app/TagGoogle.apk:system/app/Tag.apk \
     $(LOCAL_PATH)/proprietary/app/Talk.apk:system/app/Talk.apk \
     $(LOCAL_PATH)/proprietary/app/Velvet.apk:system/app/Velvet.apk \
     $(LOCAL_PATH)/proprietary/app/VideoEditorGoogle.apk:system/app/VideoEditor.apk \
