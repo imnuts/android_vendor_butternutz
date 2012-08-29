@@ -14,10 +14,8 @@ LOCAL_PATH := vendor/butternutz
 PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/etc/gps-us.conf:system/etc/gps.conf
 
-# Google Wallet
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/app/TagGoogle.apk:system/app/Tag.apk \
-    $(LOCAL_PATH)/proprietary/app/Wallet.apk:system/app/Wallet.apk
+# NFC
+include $(LOCAL_PATH)/products/nfc.mk
 
 # Google Apps and other common items
 include $(LOCAL_PATH)/products/common.mk
