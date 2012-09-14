@@ -14,10 +14,6 @@ PRODUCT_LOCALES := en_US
 PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/etc/gps-us.conf:system/etc/gps.conf
 
-# bootanimation.zip
-PRODUCT_COPY_FILES += \
-    vendor/butternutz/proprietary/media/bootanimation-1280x800.zip:system/media/bootanimation.zip \
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Silent \

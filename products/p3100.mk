@@ -11,10 +11,6 @@ include vendor/butternutz/products/common.mk
 PRODUCT_COPY_FILES +=  \
     vendor/butternutz/proprietary/etc/gps-eu.conf:system/etc/gps.conf
 
-# bootanimation.zip
-PRODUCT_COPY_FILES += \
-    vendor/butternutz/proprietary/media/bootanimation-1024x600.zip:system/media/bootanimation.zip \
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Silent \
