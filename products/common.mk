@@ -3,6 +3,7 @@ LOCAL_PATH := vendor/butternutz
 # Other Packages to build
 PRODUCT_PACKAGES += \
     Trebuchet \
+    sqlite3 \
     su
 
 # Dictionaries to build LatinIME from source
