@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Videos.apk:system/app/Videos.apk \
     $(LOCAL_PATH)/proprietary/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     $(LOCAL_PATH)/proprietary/app/YouTube.apk:system/app/YouTube.apk \
-    $(LOCAL_PATH)/proprietary/bin/su:system/bin/su \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
