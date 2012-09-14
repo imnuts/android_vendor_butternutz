@@ -2,7 +2,6 @@ LOCAL_PATH := vendor/butternutz
 
 # Other Packages to build
 PRODUCT_PACKAGES += \
-    Trebuchet \
     sqlite3 \
     su
 
