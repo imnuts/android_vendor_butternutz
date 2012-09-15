@@ -36,10 +36,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=mysid \
-    BUILD_ID=JRO03O \
-    BUILD_DISPLAY_ID=JRO03O \
-    BUILD_FINGERPRINT=google/mysid/toro:4.1.1/JRO03O/424425:user/release-keys \
-    PRIVATE_BUILD_DESC="mysid-user 4.1.1 JRO03O 424425 release-keys" \
-    BUILD_NUMBER=424425
+    PRODUCT_NAME=takju \
+    BUILD_ID=JRO03C \
+    BUILD_DISPLAY_ID=JRO03C \
+    BUILD_FINGERPRINT=google/takju/maguro:4.1.1/JRO03C/398337:user/release-keys \
+    PRIVATE_BUILD_DESC="takju-user 4.1.1 JRO03C 398337 release-keys" \
+    BUILD_NUMBER=398337
 
