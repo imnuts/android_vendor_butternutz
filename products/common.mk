@@ -2,6 +2,7 @@ LOCAL_PATH := vendor/butternutz
 
 # Other Packages to build
 PRODUCT_PACKAGES += \
+    SoundRecorder \
     sqlite3 \
     su
 
