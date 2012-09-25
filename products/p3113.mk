@@ -29,8 +29,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=espressowifiue \
     TARGET_DEVICE=espressowifi \
     BUILD_ID=IMM76D \
-    BUILD_DISPLAY_ID=IMM76D.P3113UEBLG2 \
-    BUILD_NUMBER=P3113UEBLG2 \
-    BUILD_FINGERPRINT=samsung/espressowifiue/espressowifi:4.0.4/IMM76D/P3113UEBLG2:user/release-keys \
-    PRIVATE_BUILD_DESC="espressowifiue-user 4.0.4 IMM76D P3113UEBLG2 release-keys"
+    BUILD_DISPLAY_ID=IMM76D.P3113UEBLG5 \
+    BUILD_NUMBER=P3113UEBLG5 \
+    BUILD_FINGERPRINT=samsung/espressowifiue/espressowifi:4.0.4/IMM76D/P3113UEBLG5:user/release-keys \
+    PRIVATE_BUILD_DESC="espressowifiue-user 4.0.4 IMM76D P3113UEBLG5 release-keys"
 
