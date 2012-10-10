@@ -5,5 +5,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/p3113.mk \
     $(LOCAL_DIR)/p5100.mk \
     $(LOCAL_DIR)/p5113.mk \
-    $(LOCAL_DIR)/toro.mk \
-    $(LOCAL_DIR)/torospr.mk
+    $(LOCAL_DIR)/toro.mk
