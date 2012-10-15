@@ -2,6 +2,7 @@ LOCAL_PATH := vendor/butternutz
 
 # Other Packages to build
 PRODUCT_PACKAGES += \
+    GoogleBackupTransport \
     SoundRecorder \
     sqlite3 \
     su
@@ -23,7 +24,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
     $(LOCAL_PATH)/proprietary/app/Gmail.apk:system/app/Gmail.apk \
     $(LOCAL_PATH)/proprietary/app/GmsCore.apk:system/app/GmsCore.apk \
-    $(LOCAL_PATH)/proprietary/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     $(LOCAL_PATH)/proprietary/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     $(LOCAL_PATH)/proprietary/app/GoogleEars.apk:system/app/GoogleEars.apk \
     $(LOCAL_PATH)/proprietary/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Street.apk:system/app/Street.apk \
     $(LOCAL_PATH)/proprietary/app/Superuser.apk:system/app/Superuser.apk \
     $(LOCAL_PATH)/proprietary/app/Talk.apk:system/app/Talk.apk \
+    $(LOCAL_PATH)/proprietary/app/Thinkfree.apk:system/app/Thinkfree.apk \
     $(LOCAL_PATH)/proprietary/app/Velvet.apk:system/app/Velvet.apk \
     $(LOCAL_PATH)/proprietary/app/VideoEditorGoogle.apk:system/app/VideoEditor.apk \
     $(LOCAL_PATH)/proprietary/app/Videos.apk:system/app/Videos.apk \
