@@ -5,7 +5,8 @@ PRODUCT_PACKAGES += \
     GoogleBackupTransport \
     SoundRecorder \
     sqlite3 \
-    su
+    su \
+    Trebuchet
 
 # Dictionaries to build LatinIME from source
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -18,7 +19,6 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Chrome.apk:system/app/Chrome.apk \
     $(LOCAL_PATH)/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     $(LOCAL_PATH)/proprietary/app/Currents.apk:system/app/Currents.apk \
-    $(LOCAL_PATH)/proprietary/app/Drive.apk:system/app/Drive.apk \
     $(LOCAL_PATH)/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     $(LOCAL_PATH)/proprietary/app/GalleryGoogle.apk:system/app/Gallery2.apk \
     $(LOCAL_PATH)/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
