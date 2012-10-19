@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/app/Chrome.apk:system/app/Chrome.apk \
     $(LOCAL_PATH)/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     $(LOCAL_PATH)/proprietary/app/Currents.apk:system/app/Currents.apk \
+    $(LOCAL_PATH)/proprietary/app/Drive.apk:system/app/Drive.apk \
     $(LOCAL_PATH)/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     $(LOCAL_PATH)/proprietary/app/GalleryGoogle.apk:system/app/Gallery2.apk \
     $(LOCAL_PATH)/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
@@ -59,7 +60,9 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     $(LOCAL_PATH)/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     $(LOCAL_PATH)/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    $(LOCAL_PATH)/proprietary/lib/libandroid_ndk1.so:system/lib/libandroid_ndk1.so \
     $(LOCAL_PATH)/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
+    $(LOCAL_PATH)/proprietary/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so \
     $(LOCAL_PATH)/proprietary/lib/libearthmobile.so:system/lib/libearthmobile.so \
     $(LOCAL_PATH)/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
