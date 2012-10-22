@@ -11,6 +11,10 @@ LOCAL_PATH := vendor/butternutz
 PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/proprietary/etc/gps-eu.conf:system/etc/gps.conf
 
+# Trebuchet
+PRODUCT_PACKAGES += \
+    Trebuchet
+
 # NFC
 include $(LOCAL_PATH)/products/nfc.mk
 

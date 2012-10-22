@@ -5,8 +5,7 @@ PRODUCT_PACKAGES += \
     GoogleBackupTransport \
     SoundRecorder \
     sqlite3 \
-    su \
-    Trebuchet
+    su
 
 # Dictionaries to build LatinIME from source
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
