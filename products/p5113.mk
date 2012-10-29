@@ -29,8 +29,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=espresso10wifibby \
     TARGET_DEVICE=espresso10wifi \
     BUILD_ID=IML74K \
-    BUILD_DISPLAY_ID=IML74K.P5113UEALD7 \
-    BUILD_NUMBER=P5113UEALD7 \
-    BUILD_FINGERPRINT=samsung/espresso10wifibby/espresso10wifi:4.0.3/IML74K/P5113UEALD7:user/release-keys \
-    PRIVATE_BUILD_DESC="espresso10wifibby-user 4.0.3 IML74K P5113UEALD7 release-keys"
+    BUILD_DISPLAY_ID=IML74K.P5113UEBLH3 \
+    BUILD_NUMBER=P5113UEBLH3 \
+    BUILD_FINGERPRINT=samsung/espresso10wifibby/espresso10wifi:4.0.4/IML74K/P5113UEBLH3:user/release-keys \
+    PRIVATE_BUILD_DESC="espresso10wifibby-user 4.0.4 IML74K P5113UEBLH3 release-keys"
 
