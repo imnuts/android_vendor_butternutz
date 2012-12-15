@@ -2,7 +2,7 @@
 #
 # Squish an otapackage for distribution
 #
-DATE=`date +"%m-%d-%y"`
+DATE=`date +"%Y%m%d"`
 
 OUT_TARGET_HOST=`uname -a | grep Darwin`
 if [ -z "$OUT_TARGET_HOST" ]
@@ -93,7 +93,7 @@ printf "Zipping package..."
 ( cd $REPACK/ota; zip $QUIET -r $REPACK/update.zip . )
 echo
 printf "Signing package..."
-OUTFILE=$OUT/$TARGET_PRODUCT\_$DATE.zip
+OUTFILE=$OUT/$TARGET_PRODUCT\-$DATE.zip
 SECURITYDIR=$ANDROID_BUILD_TOP/build/target/product/security
 java -Xmx2048m \
 	-jar $ANDROID_BUILD_TOP/out/host/$OUT_TARGET_HOST/framework/signapk.jar \

@@ -34,9 +34,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=takju \
-    BUILD_ID=JZO54K \
-    BUILD_DISPLAY_ID=JZO54K \
-    BUILD_FINGERPRINT=google/takju/maguro:4.1.2/JZO54K/485486:user/release-keys \
-    PRIVATE_BUILD_DESC="takju-user 4.1.2 JZO54K 485486 release-keys" \
-    BUILD_NUMBER=485486
+    BUILD_ID=JOP40D \
+    BUILD_DISPLAY_ID=JOP40D \
+    BUILD_FINGERPRINT=google/takju/maguro:4.2.1/JOP40D/533553:user/release-keys \
+    PRIVATE_BUILD_DESC="takju-user 4.2.1 JOP40D 533553 release-keys" \
+    BUILD_NUMBER=533553
 
